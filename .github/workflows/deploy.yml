@@ -18,5 +18,3 @@ jobs:
         run: |
           echo "Iniciando despliegue en Render..."
           curl -X POST "$RENDER_DEPLOY_HOOK_URL"
-
-------------------------------------------
